@@ -10,4 +10,4 @@ Currently, two official plugins are available:
 
 ****************************************************************************
 
-Stating a React Project
+Starting a React Project
