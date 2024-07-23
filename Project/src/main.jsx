@@ -18,6 +18,10 @@ import Paintings from './Components/Home/Mobiles/Mobiles.jsx'
 import DogFood from './Components/Home/DogFood/DogFood.jsx'; // Ensure this file exists
 import Aeroplane from './Components/Home/Aeroplane/Aeroplane.jsx'; // Ensure this file exists
 import LadiesCloths from './Components/Home/LadiesCloths/LadiesCloths.jsx'; // Ensure this file exists
+import Shoes from './Components/Home/Main Product/Shoes.jsx';
+import Men from './Components/Home/Main Product/Men.jsx';
+import Women from './Components/Home/Main Product/Women.jsx';
+import Kids from './Components/Home/Main Product/Kids.jsx';
 
 
 
@@ -39,6 +43,10 @@ const router = createBrowserRouter(
       <Route path='dog-food' element={<DogFood />} />
       <Route path='aeroplane' element={<Aeroplane />} />
       <Route path='ladies-cloths' element={<LadiesCloths />} />
+      <Route path='shoes' element={<Shoes />} />
+      <Route path='men' element={<Men />} />
+      <Route path='women' element={<Women />} />
+      <Route path='kids' element={<Kids />} />
     </Route>
   )
 );
