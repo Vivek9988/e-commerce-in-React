@@ -29,23 +29,46 @@ function Home() {
 
     return (
         <>
-            <div className="flex justify-center mb-8">
+            <div className="flex justify-center mb-4 mt-6">
+
                 <input
                     type="text"
                     placeholder="Search your Favourite"
                     value={filter}
                     onChange={(e) => setFilter(e.target.value)}
-                    className="p-3 w-full max-w-3xl border border-gray-300 rounded-[19px] shadow-sm focus:border-blue-400 focus:ring focus:ring-blue-200 focus:ring-opacity-50 transition duration-300"
+                    className="p-3 w-full max-w-3xl border border-gray-300 rounded-[19px] shadow-sm focus:border-blue-400 focus:ring focus:ring-blue-200 focus:ring-opacity-50 transition duration-300 "
                 />
 
+
             </div>
+            <div>
+                <div className='flex flex-wrap justify-center gap-3 shadow-lg  px-3 py-2 rounded-3xl'>
+                    <Link to="/mobiles">
+                        <button className="outline-none px-8 py-1 rounded-full shadow-lg font-medium hover:bg-slate-300">Mobile</button>
+                    </Link>
+                    <Link to="/shoes">
+                        <button className="outline-none px-8 py-1 rounded-full  shadow-lg font-medium
+                        hover:bg-slate-300">Shoes</button>
+                    </Link>
+                    <Link to="/men">
+                        <button className="outline-none px-8 py-1 rounded-full shadow-lg font-medium hover:bg-slate-300">Men</button>
+                    </Link>
+                    <Link to="/women">
+                        <button className="outline-none px-8 py-1 rounded-full  shadow-lg font-medium hover:bg-slate-300">Women</button>
+                    </Link>
+                    <Link to="/kids">
+                        <button className="outline-none px-8 py-1 rounded-full  shadow-lg font-medium hover:bg-slate-300">Kids</button>
+                    </Link>
+                </div>
+            </div>
+
             <div className="flex flex-wrap justify-evenly bg-gray-200">
                 {filteredBoxes.map(box => (
                     <Link key={box.id} to={box.link} className="w-[23%] mt-4">
                         <div className="h-[400px] bg-white p-5 box-border">
                             <div className="h-[300px] bg-cover" style={{ backgroundImage: `url(${box.image})` }}></div>
                             <div className="mx-4">
-                                <h2 className="text-lg font-semibold">{box.title}</h2>
+                                <h2 className="text-lg font-medium">{box.title}</h2>
                                 <p className="text-blue-500">See more</p>
                             </div>
                         </div>

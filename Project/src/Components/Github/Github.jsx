@@ -6,7 +6,7 @@ function Github() {
   const loaderData = useLoaderData();
 
   useEffect(() => {
-    fetch('https://api.github.com/users/hiteshchoudhary')
+    fetch('https://api.github.com/users/Vivek9988')
       .then((response) => response.json())
       .then((data) => {
         console.log(data);
@@ -33,7 +33,7 @@ export default Github;
 
 // Loader function to fetch GitHub user info
 export const githubInfoLoader = async () => {
-  const response = await fetch('https://api.github.com/users/hiteshchoudhary');
+  const response = await fetch('https://api.github.com/users/Vivek9988');
   if (!response.ok) {
     throw new Error('Failed to fetch data');
   }
