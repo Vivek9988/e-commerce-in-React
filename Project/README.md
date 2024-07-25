@@ -15,5 +15,7 @@ Starting a React Project----
 
 started the project
 
+added function
+
 
 
