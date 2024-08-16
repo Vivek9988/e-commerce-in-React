@@ -10,18 +10,18 @@ import User from './Components/User/User.jsx';
 import Github from './Components/Github/Github.jsx';
 import Login from './Components/Login/Login.jsx';
 import Signup from './Components/Signup/Signup.jsx';
-import Clothes from './Components/Routes/Clothes/Clothes.jsx';
-import Health from './Components/Routes/Health/Health.jsx';
-import Furniture from './Components/Routes/Furniture/Furniture.jsx';
-import Mobiles from './Components/Routes/Mobiles/Mobiles.jsx';
-import Paintings from './Components/Routes/Mobiles/Mobiles.jsx'
-import DogFood from './Components/Routes/DogFood/DogFood.jsx'; // Ensure this file exists
-import Aeroplane from './Components/Routes/Aeroplane/Aeroplane.jsx'; // Ensure this file exists
-import LadiesCloths from './Components/Routes/LadiesCloths/LadiesCloths.jsx'; // Ensure this file exists
-import Shoes from './Components/Routes/Main Product/Shoes.jsx';
-import Men from './Components/Routes/Main Product/Men.jsx';
-import Women from './Components/Routes/Main Product/Women.jsx';
-import Kids from './Components/Routes/Main Product/Kids.jsx';
+import Clothes from './Routes/Clothes/Clothes.jsx';
+import Health from './Routes/Health/Health.jsx';
+import Furniture from './Routes/Furniture/Furniture.jsx';
+import Mobiles from './Routes/Mobiles/Mobiles.jsx';
+import Paintings from './Routes/Mobiles/Mobiles.jsx'
+import DogFood from './Routes/DogFood/DogFood.jsx'; // Ensure this file exists
+import Aeroplane from './Routes/Aeroplane/Aeroplane.jsx'; // Ensure this file exists
+import LadiesCloths from './Routes/LadiesCloths/LadiesCloths.jsx'; // Ensure this file exists
+import Shoes from './Routes/Main Product/Shoes.jsx';
+import Men from './Routes/Main Product/Men.jsx';
+import Women from './Routes/Main Product/Women.jsx';
+import Kids from './Routes/Main Product/Kids.jsx';
 
 
 
