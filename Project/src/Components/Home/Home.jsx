@@ -1,7 +1,5 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-//import './App.css'; // You might want to remove if you're using Tailwind
-
 import Box1Image from './images/box1_image.jpg';
 import Box2Image from './images/box2_image.jpg';
 import Box3Image from './images/box3_image.jpg';
