@@ -7,5 +7,5 @@ const Mobile = () => {
     </div>
   )
 }
-
+ˀ
 export default Mobile
